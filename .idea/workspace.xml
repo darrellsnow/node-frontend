@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="912541eb-a7c2-4db2-87bb-618371f1e4fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574717891437</updated>
-      <workItem from="1574717892506" duration="3038000" />
+      <workItem from="1574717892506" duration="3324000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic gitlab-ci">
       <created>1574725153572</created>
@@ -105,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574725153572</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated gitlab-ci.yml">
+      <created>1574725997081</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574725997081</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added basic gitlab-ci" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added basic gitlab-ci" />
+    <MESSAGE value="Updated gitlab-ci.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated gitlab-ci.yml" />
   </component>
 </project>
