@@ -1,5 +1,22 @@
 image: node:latest
 
+cache:
+  paths:
+    - node_modules/
+
+stages:
+  - build
+  - test
+
+test:
+  stage: test
+  script:
+    - npm install
+    - npm run test
+
 build:
   script:
     - npm run build
+  only:
+    - master
+
