@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="912541eb-a7c2-4db2-87bb-618371f1e4fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Docker_dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/start-docker-dev.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Dockerfile_dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Dockerfile_dev.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +31,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="DockerRegistry" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile.dev">
+  <component name="RunManager" selected="Shell Script.Docker.dev">
     <configuration default="true" type="js.build_tools.npm">
       <command value="run" />
       <scripts>
@@ -61,8 +66,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.Dockerfile.dev" />
       <item itemvalue="npm.start" />
+      <item itemvalue="Shell Script.Docker.dev" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -90,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574717891437</updated>
-      <workItem from="1574717892506" duration="4727000" />
+      <workItem from="1574717892506" duration="6537000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic gitlab-ci">
       <created>1574725153572</created>
@@ -120,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574726359578</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated the Docker.dev build.">
+      <created>1574774377818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574774377818</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added basic gitlab-ci" />
     <MESSAGE value="Updated gitlab-ci.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated gitlab-ci.yml" />
+    <MESSAGE value="Updated the Docker.dev build." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the Docker.dev build." />
   </component>
 </project>
