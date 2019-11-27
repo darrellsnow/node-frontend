@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="912541eb-a7c2-4db2-87bb-618371f1e4fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
-    </list>
+    <list default="true" id="912541eb-a7c2-4db2-87bb-618371f1e4fc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="frontend" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,7 +27,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="DockerRegistry" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,11 +41,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile.dev">
+  <component name="RunManager" selected="Docker.Dockerfile">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm">
       <command value="run" />
       <scripts>
-        <script value="atart" />
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -61,8 +76,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.Dockerfile.dev" />
+      <item itemvalue="Docker.Dev Docker Compose" />
+      <item itemvalue="Docker.Dockerfile" />
       <item itemvalue="npm.start" />
+      <item itemvalue="Shell Script.Docker.dev" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -73,11 +90,6 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4b896386" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4b896386" type="9fbbdea:ServiceModel$ServiceNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7c57c6df" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -95,8 +107,72 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574717891437</updated>
-      <workItem from="1574717892506" duration="2341000" />
+      <workItem from="1574717892506" duration="11688000" />
     </task>
+    <task id="LOCAL-00001" summary="Added basic gitlab-ci">
+      <created>1574725153572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574725153572</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated gitlab-ci.yml">
+      <created>1574725997081</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574725997081</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated gitlab-ci.yml">
+      <created>1574726105532</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574726105532</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated gitlab-ci.yml">
+      <created>1574726359578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574726359578</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated the Docker.dev build.">
+      <created>1574774377818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574774377818</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created a script to create the docker.dev and shared source.">
+      <created>1574776542951</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574776542951</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Moved from script to docker-compose.yml">
+      <created>1574777268470</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574777268470</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added docker command to run tests.">
+      <created>1574824467623</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574824467623</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added production Dockerfile.">
+      <created>1574826798370</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574826798370</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,5 +188,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added basic gitlab-ci" />
+    <MESSAGE value="Updated gitlab-ci.yml" />
+    <MESSAGE value="Updated the Docker.dev build." />
+    <MESSAGE value="Created a script to create the docker.dev and shared source." />
+    <MESSAGE value="Moved from script to docker-compose.yml" />
+    <MESSAGE value="Added docker command to run tests." />
+    <MESSAGE value="Added production Dockerfile." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added production Dockerfile." />
   </component>
 </project>
