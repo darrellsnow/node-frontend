@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="912541eb-a7c2-4db2-87bb-618371f1e4fc" name="Default Changelist" comment="" />
+    <list default="true" id="912541eb-a7c2-4db2-87bb-618371f1e4fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574877601961</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added env for docker.">
+      <created>1574878835094</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574878835094</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +251,7 @@
     <MESSAGE value="Corrected the .travis.yml." />
     <MESSAGE value="Removed typo" />
     <MESSAGE value="Updated to include beanstalk deploy." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated to include beanstalk deploy." />
+    <MESSAGE value="Added env for docker." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added env for docker." />
   </component>
 </project>
