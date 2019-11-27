@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="912541eb-a7c2-4db2-87bb-618371f1e4fc" name="Default Changelist" comment="" />
+    <list default="true" id="912541eb-a7c2-4db2-87bb-618371f1e4fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +174,42 @@
       <option name="project" value="LOCAL" />
       <updated>1574826798370</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added .travis.yml.">
+      <created>1574827999322</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574827999322</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Corrected the .travis.yml.">
+      <created>1574828207142</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574828207142</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Removed typo">
+      <created>1574828287492</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574828287492</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated to include beanstalk deploy.">
+      <created>1574877411702</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574877411702</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated to include beanstalk deploy.">
+      <created>1574877601961</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574877601961</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +234,10 @@
     <MESSAGE value="Moved from script to docker-compose.yml" />
     <MESSAGE value="Added docker command to run tests." />
     <MESSAGE value="Added production Dockerfile." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added production Dockerfile." />
+    <MESSAGE value="Added .travis.yml." />
+    <MESSAGE value="Corrected the .travis.yml." />
+    <MESSAGE value="Removed typo" />
+    <MESSAGE value="Updated to include beanstalk deploy." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to include beanstalk deploy." />
   </component>
 </project>
